@@ -6,6 +6,14 @@
   background-color: #fa96e6;
   cursor: pointer;
 }
+.FirstWidgetA{
+  width: 300px;
+  height: 250px;
+  background-image: url(../assets/hand\ navigation\ for\ dirty\ shirt\ Next.gif); 
+  background-repeat: no-repeat;
+  background-color: #fa96e6;
+  cursor: pointer;
+}
 
 .SecondWidget {
   width: 300px;
@@ -36,6 +44,8 @@
     background-image: url(../assets/new/hand\ navigation\ fragance.gif); 
     background-repeat: no-repeat;
   background-color: #fa96e6;
+  cursor: pointer;
+
 
   }
 
