@@ -3,11 +3,13 @@ import {  Row, Col } from 'reactstrap'
 import ScratchCard from 'react-scratchcard';
 import BG from '../assets/Untitled (300 x 198 px) (1).png'
 import './widget.css'
-import { Link,useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Widget() {
   const navigate = useNavigate();
+    // eslint-disable-next-line
   const [completed, setCompleted] = useState(false);
+
 
   const settings = {
     width: '300px',
