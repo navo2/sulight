@@ -7,7 +7,7 @@ function SecondWidget() {
     const navigate = useNavigate();
   
     const handleBackgroundClick = () => {
-      navigate('/dirty');
+      navigate('/first');
     };
   
     return (
